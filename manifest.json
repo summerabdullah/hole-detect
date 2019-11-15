@@ -10,8 +10,8 @@
  "executable": "python",
  "args": ["hole-detect-master/HoleDetect.py"],
  "config": [
-   {"name": "angle", "label": "label", "value": 21.1 }
-   {"name": "minarea", "label": "minArea", "value": 20 }
+   {"name": "angle", "label": "label", "value": 21.1 },
+   {"name": "minarea", "label": "minArea", "value": 20 },
    {"name": "maxarea", "label": "maxArea", "value": 30 }
  ]
 }
