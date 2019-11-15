@@ -1,4 +1,9 @@
 
+#!/usr/bin/env python
+"""Hole Detect Farmware"""
+
+from farmware_tools import device
+
 import cv2
 import numpy as np;
 im = cv2.imread("blob.jpeg", cv2.IMREAD_GRAYSCALE)
