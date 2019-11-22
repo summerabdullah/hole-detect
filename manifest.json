@@ -5,14 +5,14 @@
  "author": "TXST Hydroponics",
  "description": "Detects Holes",
  "package_version": "1.0.0",
- "farmbot_os_version_requirement": ">= 6.0.0",
+ "farmbot_os_version_requirement": ">= 8.0.0",
  "url": "https://raw.githubusercontent.com/summerabdullah/hole-detect/master/manifest.json",
  "zip": "https://github.com/summerabdullah/hole-detect/archive/master.zip",
  "executable": "python",
- "args": ["hole-detect-master/HoleDetect.py"],
+ "args": "hole-detect-master/HoleDetect.py",
  "config": 
    {"0": {"name": "angle", "label": "label", "value": 21.1 },
    "1": {"name": "minarea", "label": "minArea", "value": 20 },
-   "2": {"name": "maxarea", "label": "maxArea", "value": 30 }
+   "2": {"name": "maxarea", "label": "maxArea", "value": 30 }}
 }
 
